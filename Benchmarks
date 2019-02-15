@@ -1,0 +1,17 @@
+Baseline TFIDF Vectorizer - sklearn tokenizer
+Accuracy: 0.683265 
+Cost: 123919
+Tokenise time - 58s
+Train time - 67s
+
+Baseline TFIDF Vectorizer - nltk tokenizer 
+Accuracy: 0.68775 
+Cost: 121792
+Tokenise time - 802s
+Train time - 66s
+
+Neg TFIDF Vectorizer - nltk tokenizer - nltk negative marker
+Accuracy: 0.693655 
+Cost: 114581
+Tokenise time - 817s
+Train time - 82s
