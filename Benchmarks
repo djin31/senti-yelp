@@ -10,8 +10,27 @@ Cost: 121792
 Tokenise time - 802s
 Train time - 66s
 
-Neg TFIDF Vectorizer - nltk tokenizer - nltk negative marker
+TFIDF Vectorizer - nltk tokenizer - nltk negative marker 
 Accuracy: 0.693655 
 Cost: 114581
 Tokenise time - 817s
 Train time - 82s
+
+TFIDF Vectorizer - nltk tokenizer - nltk negative marker - stemmer - spl_char_removal
+Accuracy: 0.690055 
+Cost: 119126
+Tokenise time - 1560s
+Train time - 135s
+
+TFIDF Vectorizer - nltk tokenizer - nltk negative marker - stemmer - numeral marker - spl_char_removal
+Accuracy: 0.68779 
+Cost: 119830
+Tokenise time - 1650s
+Train time - 135s
+
+
+TFIDF Vectorizer - nltk tokenizer - nltk negative marker - spl_char_removal
+Accuracy: 0.69357 
+Cost: 114334
+Tokenise time - 1347s
+Train time - 120s
