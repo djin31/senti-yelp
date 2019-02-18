@@ -57,3 +57,12 @@ Accuracy: 0.710565
 Cost: 101346
 Tokenise time - 1640s
 Train time - 240s
+
+TFIDF Vectorizer - sklearn tokenizer - trigram - max_feat 200k - ensemble logist-mutinom and linearSVC
+Cost: 96283.0
+
+TFIDF Vectorizer - nltk tokenizer - nltk negative marker - spl_char_removal - bigram - max_feat 200k - ensemble logist-mutinom and linearSVC
+Cost: 94601.25
+
+TFIDF Vectorizer - nltk tokenizer - nltk negative marker - spl_char_removal - bigram - max_feat 200k - ensemble logist-mutinom and linearSVC and liblinear
+Cost: 92780.33333333333
